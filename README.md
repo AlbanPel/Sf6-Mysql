@@ -27,7 +27,7 @@
 ##Four step: add user for write rules
 ```bash
   adduser username
-  chown username:username -R 
+  chown username:username -R my-project/
 ```
 
 your app is available on localhost:9000 or http://127.0.0.1:9000
