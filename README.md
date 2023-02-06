@@ -17,6 +17,7 @@
 ##Second Step: Connect to the php container
 ```bash
   docker exec -it php8 bash
+  //If u disable line 15-16 in dockerfile, install cli : wget https://get.symfony.com/cli/installer -O - | bash 
 ```
 ##Third step : Create your symfony app
 ```bash
